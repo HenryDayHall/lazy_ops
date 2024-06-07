@@ -1,4 +1,7 @@
 import numpy as np
+import sys
+import pathlib
+sys.path.append(str(pathlib.Path(__file__).parent.parent))
 from lazy_ops import DatasetView, lazy_transpose
 import secrets
 from numpy.testing import assert_array_equal
